@@ -14,22 +14,32 @@
 
     <dependencies>
         <dependency>
+            <groupId>com.github.vickumar1981</groupId>
+            <artifactId>stringdistance_2.12</artifactId>
+            <version>1.1.2</version>
+        </dependency>
+        
+        <!--
+        <dependency>
             <groupId>com.github.haifengl</groupId>
             <artifactId>smile-core</artifactId>
             <version>1.5.3</version>
         </dependency>
+        -->
+        <!--
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-text</artifactId>
+            <version>1.6</version>
+        </dependency>
+         -->
+
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.12</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-text</artifactId>
-            <version>1.6</version>
-        </dependency>
-
     </dependencies>
 
 
